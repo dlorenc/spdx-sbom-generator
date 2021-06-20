@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"spdx-sbom-generator/internal/handler"
+	"github.com/dlorenc/spdx-sbom-generator/pkg/handler"
 )
 
 const jsonLogFormat = "json"
@@ -23,7 +23,7 @@ var (
 var errRequiredEnVarError = errors.New("environment variable required")
 
 var rootCmd = &cobra.Command{
-	Use:   "spdx-sbom-generator",
+	Use:   "github.com/dlorenc/spdx-sbom-generator",
 	Short: "Output Package Manager dependency on SPDX format",
 	Long:  "Output Package Manager dependency on SPDX format",
 	Run:   generate,

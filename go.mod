@@ -1,4 +1,4 @@
-module spdx-sbom-generator
+module github.com/dlorenc/spdx-sbom-generator
 
 go 1.15
 

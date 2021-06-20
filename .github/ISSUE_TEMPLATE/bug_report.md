@@ -31,7 +31,7 @@ If applicable, add screenshots to help explain the problem.
 
 Which repository causes this error?
 
-- [example repo 1](https://github.com/spdx/spdx-sbom-generator)
+- [example repo 1](https://github.com/dlorenc/spdx-sbom-generator)
 
 ## Additional Context
 

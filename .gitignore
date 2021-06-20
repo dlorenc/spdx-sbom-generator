@@ -18,3 +18,4 @@ bom*
 # IDE file
 .swp
 .idea/
+.vscode/

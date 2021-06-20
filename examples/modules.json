@@ -1,8 +1,8 @@
 [
  	{
  		"Version": "",
- 		"Name": "spdx-sbom-generator",
- 		"Path": "spdx-sbom-generator",
+ 		"Name": "github.com/dlorenc/spdx-sbom-generator",
+ 		"Path": "github.com/dlorenc/spdx-sbom-generator",
  		"LocalPath": "",
  		"Supplier": {
  			"Type": "",

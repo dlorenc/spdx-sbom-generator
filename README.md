@@ -21,10 +21,10 @@
 
 ## Installation:
 
-* [macOS](https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-linux-386.tar.gz)
-* [Linux (x64)](https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-linux-amd64.tar.gz)
-* [Windows (x64)](https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-windows-amd64.zip)
-* [Windows (x86)](https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-windows-386.zip)
+* [macOS](https://github.com/dlorenc/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-linux-386.tar.gz)
+* [Linux (x64)](https://github.com/dlorenc/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-linux-amd64.tar.gz)
+* [Windows (x64)](https://github.com/dlorenc/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-windows-amd64.zip)
+* [Windows (x86)](https://github.com/dlorenc/spdx-sbom-generator/releases/download/v0.0.7/spdx-sbom-generator-v0.0.7-windows-386.zip)
 
 ***Note***: The `spdx-sbom-generator` CLI is under development. You may expect some breakages and stability issues with the current release. A stable version is under development and will be available to the open source community in the  upcoming beta release.
 
@@ -356,8 +356,8 @@ To register for a new plugin, perform the following steps:
    import (
    	"path/filepath"
 
-   	"spdx-sbom-generator/internal/helper"
-   	"spdx-sbom-generator/internal/models"
+   	"github.com/dlorenc/spdx-sbom-generator/pkg/helper"
+   	"github.com/dlorenc/spdx-sbom-generator/pkg/models"
    )
 
    // rest of the file below
@@ -517,7 +517,7 @@ Perform the following steps to work with SPDX SBOM Generator:
 
 Licensing
 ---------
-docker/cli is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/spdx/spdx-sbom-generator/blob/master/LICENSE) for the full license text.
+docker/cli is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/dlorenc/spdx-sbom-generator/blob/master/LICENSE) for the full license text.
 
 ## Additional Information
 
